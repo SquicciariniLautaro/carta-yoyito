@@ -123,3 +123,18 @@ footer {
   0% { opacity: 1; }
   100% { opacity: 0; visibility: hidden; }
 }
+.creditos {
+  font-size: 0.8rem;
+  color: #bbb;
+  margin-top: 15px;
+}
+
+.creditos a {
+  color: var(--color-principal);
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.creditos a:hover {
+  color: #fff;
+}
